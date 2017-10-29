@@ -11,6 +11,7 @@
 |
 */
 Route::post('/inputurl', 'MainHandler@getinputURL');
+Route::get('/inputurl2', 'MainHandler@getinputURL2');
 
 Route::get('/', function () {
 		$data = [

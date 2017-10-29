@@ -53521,7 +53521,7 @@ var Login = function (_Component) {
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'h4',
                                 null,
-                                'Achieve yer goals ;)'
+                                'figure out what you need to improve! ;)'
                             ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'form',
@@ -53532,9 +53532,33 @@ var Login = function (_Component) {
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', onChange: this.handleonChange.bind(this), className: 'form-control', id: 'inputURL', name: 'inputURL', 'aria-describedby': 'emailHelp', placeholder: 'LinkedIn Profile URL' })
                                 ),
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'select',
+                                    { 'class': 'selectpicker' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        null,
+                                        'Uber'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        null,
+                                        'Lyft'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        null,
+                                        'Airbnb'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        null,
+                                        'Google'
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                     'button',
                                     { type: 'button', className: 'btn btn-outline-primary submit-btn', onClick: this.handleSubmit.bind(this) },
-                                    'Lessgo'
+                                    'Let\'s Go!'
                                 )
                             )
                         )

@@ -48,12 +48,19 @@ export default class Login extends Component {
                     <div className="col-lg-4 login-wrapper">
                         <div className="wrapper-login">
                             <h2>Welcome to Predix,</h2>
-                            <h4>Achieve yer goals ;)</h4>
+                            <h4>figure out what you need to improve! ;)</h4>
                             <form className="form-login">
                                 <div className="form-group">
                                     <input type="text" onChange={this.handleonChange.bind(this)} className="form-control" id="inputURL" name="inputURL" aria-describedby="emailHelp" placeholder="LinkedIn Profile URL" />
                                 </div>
-                            <button type="button" className="btn btn-outline-primary submit-btn" onClick={this.handleSubmit.bind(this)}>Lessgo</button>
+                                <select class="selectpicker">
+                                  <option>Uber</option>
+                                  <option>Lyft</option>
+                                  <option>Airbnb</option>
+                                  <option>Google</option>
+                                </select>
+
+                            <button type="button" className="btn btn-outline-primary submit-btn" onClick={this.handleSubmit.bind(this)}>Let's Go!</button>
                             </form>
                         </div>
                     </div>
@@ -66,3 +73,4 @@ export default class Login extends Component {
 if (document.getElementById('login')) {
     ReactDOM.render(<Login />, document.getElementById('login'));
 }
+

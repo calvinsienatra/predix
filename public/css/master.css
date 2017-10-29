@@ -105,3 +105,8 @@ h4{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 );
     color: white;
 }
+.selectpicker{
+    width: 100%;
+     margin: 0 auto;
+     display :block;
+}
