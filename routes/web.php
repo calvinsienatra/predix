@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('/inputurl', 'MainHandler@getinputURL');
 
 Route::get('/', function () {
 		$data = [
