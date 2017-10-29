@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
 		$data = [
-			'title' => 'Login - Predix'
+			'title' => 'Predix'
 		];
     return view('login', $data);
 });
