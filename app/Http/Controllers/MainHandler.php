@@ -14,13 +14,9 @@ class MainHandler extends Controller
     }
     public function getinputURL2(){
     	$inputURL = "asdf";
-    	$dummy = 
-				'{"firstName":"Imran","lastName":"Kazi","bachelorUniv":["University of Pune"],"masterUniv":["Texas State University"],"phdUniv":[],"pastCompany":["BNY Mellon","Texas State University","Allen Technologies"],"pastPosition":["Application Developer","Graduate Research Assistant","Software Engineer"],"currentCompany":"eBay","currentJob":"Software Engineer","bachelorMajor":["Information Technology"],"masterMajor":["Computer Science"],"phdMajor":[],"skills":["Java","JavaScript","jQuery","Spring Framework","RESTful WebServices","SOAP","SQL","C++","C","Python","Oracle","HTML","Linux","Data Structures","PostgreSQL"]}';
 			$dummy =
 			'
 {
-	"firstName": "Imran",
-	"lastName": "Kazi",
 	"bachelorUniv": ["University of Pune"],
 	"masterUniv": ["Texas State University"],
 	"phdUniv": [],
